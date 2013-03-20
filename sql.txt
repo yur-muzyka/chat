@@ -1,0 +1,6 @@
+CREATE TABLE `messages` (
+  `id` int(5) NOT NULL auto_increment,
+  `name` char(255) character set utf8 NOT NULL,
+  `text` text character set utf8,
+  PRIMARY KEY  (`id`)
+);
